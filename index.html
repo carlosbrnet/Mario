@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Mario Bros</title>
+  </head>
+  <body>
+    <div class="mascara-formulario" onclick="esconderForm()()"></div>
+    <div class="caixa-video">
+      <video autoplay muted loop src="./assets/video.mp4"></video>
+      <div class="mascara"></div>
+    </div>
+    <section class="main">
+      <a href="https://api.whatsapp.com/send?phone=5599991962979"
+        ><img class="whatsapp" src="./assets/whatsapp.png" alt=""
+      /></a>
+      <header class="nav">
+        <img
+          class="img-logo"
+          src="./assets/logo-header.png"
+          alt="logo-header"
+        />
+        <ul>
+          <a href="#">Home</a>
+          <a href="#">Fale Conosco</a>
+          <a href="#">Nossos Serviços</a>
+        </ul>
+      </header>
+      <div class="container-principal">
+        <div class="section-left">
+          <img src="./assets/logo.png" alt="" />
+          <p>
+            Encanadores Mario & Luigi - Resolvendo Seus Probemas Hidráulicos Com
+            Estilo
+          </p>
+          <p class="paragrafo-principal">
+            Você já se encontrou em uma situação emergengial com encanamento?
+            vazamentos inesperados, canos entupidos ou torneiras que não param
+            de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+            Apresentamos a vocês os encanadores mais famosos do Reino dos
+            Corgumelos - Mario e Luigi!
+          </p>
+          <button class="contato" onclick="mostrarForm()">ENTRE EM CONTATO</button>
+        </div>
+        <img class="mario-luigi" src="./assets/mario.png" alt="" />
+      </div>
+    </section>
+    <form class="formulario-caixa">
+      <input type="text" placeholder="Seu nome" />
+      <input type="tel" placeholder="Seu telefone" />
+      <textarea class="area" placeholder="Digite sua mensagem" name="" id=""></textarea>
+      <button class="buttom2" >PEDIR ORÇAMENTO</button>
+    </form>
+   
+  </body>
+  <script src="script.js"></script>
+</html>
