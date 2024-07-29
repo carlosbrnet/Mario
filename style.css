@@ -158,7 +158,9 @@ input {
     align-items: center;
   }
   .mario-luigi {
-    margin: 40px;
+    margin: 40px auto;
+    width: 350px;
+    height: auto;
     
   }
   img {
@@ -191,4 +193,9 @@ input {
   .area {
     height: 90px;
   }
+  
+  a {
+  margin: 0 10px;
+  }
+  
 }
