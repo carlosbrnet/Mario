@@ -186,7 +186,7 @@ input {
     margin: 0 auto;
   }
   .formulario-caixa {
-    width: auto;
+    width: 250px;
     height: 300px;
     gap: 20px;
   }
