@@ -161,7 +161,6 @@ input {
     margin: 40px auto;
     width: 350px;
     height: auto;
-    
   }
   img {
     margin: 50px auto;
@@ -193,9 +192,8 @@ input {
   .area {
     height: 90px;
   }
-  
+
   a {
-  margin: 0 10px;
+    margin: 0 10px;
   }
-  
 }
